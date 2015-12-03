@@ -1,7 +1,9 @@
 java应用中数据导出工具，目前只支持excel,后续会支持其他格式
 
 附上使用例子：
-  @RequestMapping("exportExcel")
+
+
+     @RequestMapping("exportExcel")
     public void exportExcel(HttpServletRequest request, HttpServletResponse response) {
         File file = null;
         FileInputStream inputStream = null;
